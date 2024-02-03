@@ -29,4 +29,8 @@ export class AppComponent implements AfterViewInit {
 
     }
 
+    onToggle(isHighlighted: boolean){
+      console.log("comunicated from directive that its highlighted or not :", isHighlighted);
+    }
+
 }
